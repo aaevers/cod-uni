@@ -17,6 +17,9 @@ Linear Search is at best omega(1) at worst O(n) <- because it's proportional to 
 
 Theta is sort of a combo of best and worst, accessing a variable to find len is both at best and worst constant so it's theta(1)
 
+Omega = Best Case
+Big O = Worst Case
+Theta = Median case
 
 
 O(1) - Constant Time - takes same number of operations no matter the data size - random access of array, inserting at beginning of linked list.
@@ -28,7 +31,7 @@ O(n!) - Factorial Time - like the above two but even shittier - Traveling Salesm
 
 
 
-l
+If one know the data size in advance are can find that break point between two algorithms being more or less efficient you can elect to run alg 1 up to the point they meet then run agl 2.
 
 
 
