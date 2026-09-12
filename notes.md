@@ -36,6 +36,18 @@ If one know the data size in advance are can find that break point between two a
 
 
 
+# Data Structures / Algorithms
+
+
+Data structure: a named location that can be used to store and organize data
+
+Algorithm: a collection of staps to solve a problem
+
+Array is data structure, linear search is algorithm
+
+
+Data Struct - Stack:
+Last-In First-Out, stores objects into a sort of vertical tower, push() to add to the top, pop() to remove from top in java
 
 
 
@@ -81,7 +93,26 @@ If one know the data size in advance are can find that break point between two a
 
 
 
-# Data Structures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
