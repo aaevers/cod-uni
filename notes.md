@@ -46,13 +46,18 @@ Algorithm: a collection of staps to solve a problem
 Array is data structure, linear search is algorithm
 
 
-Data Struct - Stack:
+## Data Struct - Stack:
 Last-In First-Out, stores objects into a sort of vertical tower, push() to add to the top, pop() to remove from top - Made this in C 
-
+Linear data strucutre
 Uses of stack: undo/redo features in text editors, moving forward and back through browser history, backtracking algorithms (maze, file directories), calling functions (call stack).
 
 
 
+## Data Struct - Queue:
+First-In First-Out, designed to hold elements prior to processing, first come first serve - Made in C
+Linear data structure
+add = enqueue
+remove = dequeue
 
 
 

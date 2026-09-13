@@ -68,7 +68,6 @@ int peek(Stack *stack){
 int main(){
 
     /*Stack Data Structure*/
-    // Using struct->attribute that's similar to using object.attribute in OOP languages
 
 
     Stack stink;
