@@ -46,6 +46,7 @@ Algorithm: a collection of staps to solve a problem
 Array is data structure, linear search is algorithm
 
 
+
 ## Data Struct - Stack:
 Last-In First-Out, stores objects into a sort of vertical tower, push() to add to the top, pop() to remove from top - Made this in C 
 Linear data strucutre
@@ -60,6 +61,9 @@ add = enqueue
 remove = dequeue
 
 
+
+## Data Struct - Priority Queue:
+FIFO data structure but it serves elements of higher priority first, before elements of lower priority.
 
 
 
