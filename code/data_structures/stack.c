@@ -97,6 +97,7 @@ int main(){
 
     isFull(&stink);
 
+    
 
     return 0;
 }

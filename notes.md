@@ -47,7 +47,9 @@ Array is data structure, linear search is algorithm
 
 
 Data Struct - Stack:
-Last-In First-Out, stores objects into a sort of vertical tower, push() to add to the top, pop() to remove from top in java
+Last-In First-Out, stores objects into a sort of vertical tower, push() to add to the top, pop() to remove from top - Made this in C 
+
+Uses of stack: undo/redo features in text editors, moving forward and back through browser history, backtracking algorithms (maze, file directories), calling functions (call stack).
 
 
 
