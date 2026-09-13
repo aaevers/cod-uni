@@ -63,7 +63,11 @@ remove = dequeue
 
 
 ## Data Struct - Priority Queue:
-FIFO data structure but it serves elements of higher priority first, before elements of lower priority.
+FIFO data structure but it serves elements of higher priority first, before elements of lower priority. Didn't make in C, same fundamentals as queue with added value checking between elements, not gon do allat
+
+
+
+## Data Struct - Linked Lists:
 
 
 
