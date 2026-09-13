@@ -63,13 +63,13 @@ remove = dequeue
 
 
 ## Data Struct - Priority Queue:
-FIFO data structure but it serves elements of higher priority first, before elements of lower priority. Didn't make in C, same fundamentals as queue with added value checking between elements, not gon do allat
+FIFO data structure but it serves elements of higher priority first, before elements of lower priority. Didn't make in C, same fundamentals as queue with added value/priority checking between elements, not gon do allat
 
 
 
 ## Data Struct - Linked Lists:
-
-
+Elements include value and pointer / address to next element. Much worse for searching than arrays. 
+Singly linked list only includes pointer to the next node, a doubly linked list includes a pointer forward and backward.
 
 
 
