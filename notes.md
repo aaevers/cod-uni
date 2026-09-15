@@ -73,7 +73,11 @@ Singly linked list only includes pointer to the next node, a doubly linked list 
 
 
 
-
+## Data Struct - Dynamic Array:
+Basically a dynamically resizable array, maybe the simplest concept of all of these, beyond the standard array itself.
+Different languages call it different things: Java = ArrayList; C++ = Vector; JS = Array; Python = List;
+Adventages: Random access of elemnets is O(1), contiguous so good data cache utilization, easy to insert delete at end.
+Disadvantages: Wastes more memory, shifting elements is time consuming O(n), expanding / shrinking the array is time consuming O(n).
 
 
 
