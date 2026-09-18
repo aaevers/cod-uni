@@ -36,7 +36,7 @@ If one know the data size in advance are can find that break point between two a
 
 
 
-# Data Structures / Algorithms
+# Data Structures
 
 
 Data structure: a named location that can be used to store and organize data
@@ -79,59 +79,29 @@ Different languages call it different things: Java = ArrayList; C++ = Vector; JS
 Adventages: Random access of elemnets is O(1), contiguous so good data cache utilization, easy to insert delete at end.
 Disadvantages: Wastes more memory, shifting elements is time consuming O(n), expanding / shrinking the array is time consuming O(n).
 
+# Algorithms
+
+
+## Algorithm - Linear Search
+Runetime complexity O(n)
+disadvantages: slow for large data sets
+advantages: fast over small / medium data sets
+Doesn't need to be sorted
+useful for data structures that do not have random access, like linked lists where you need to search through the whole thing, arrays are random access
+Made in C
 
 
 
+## Algorithm - Binary Search
+Finds position of target value within a sorted array, half of the array is eliminated during each operation
+It jumps into the middle of a sorted data set, determines if the value is equal or higher or lower, then a variable either high or low will raise or fall thus "removing" that part of the array from our search,
+we then jump into the middle again raising and lowering these so we stay within our bounds. We make sure to check that low <= high so it never goes above and breaks us out of bounds.
+Binary Search is O(logn) as it maintains efficiency with large data sets
+Made in C
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Algorithm - Interpolation Search
 
 
 
