@@ -120,10 +120,14 @@ Made in C
 
 
 ## Algorithm - Selection Sort
+We iterate over the array find a minimum value and hold onto it, once done we then assign the min value to the first index swapping the value from the first index into wherever the min used to be.
+We continue until all elements are sorted.
+Runs in O(n^2) just like Bubble Sort
+Made in C :)
 
 
 
-
+## Algorithm - Insertion Sort
 
 
 
