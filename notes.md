@@ -102,7 +102,11 @@ Made in C
 
 
 ## Algorithm - Interpolation Search
+An improvement over binary searches, best used for "uniformly" distrubuted data. It "guesses" where a result might be based on calculated
+probe results. If probe is incorrect the search window is narrowed and a new probe is calculated.
 
+Average case: O(log(logn))
+Worst case: O(n) [when values in structure increase exponentially]
 
 
 
