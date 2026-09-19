@@ -128,6 +128,31 @@ Made in C :)
 
 
 ## Algorithm - Insertion Sort
+Compares elements to the left, thus it starts at index of 1. It shifts elements to the right to make room to insert a value.
+Just like the above two it runs in O(n^2) time
+Preferable to BubbleSort and Selection sort, it does less steps than bubble sort and in best case can do O(n) compared to selection sort's O(n^2) best case
+Made in C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
