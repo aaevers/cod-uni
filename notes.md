@@ -107,6 +107,32 @@ probe results. If probe is incorrect the search window is narrowed and a new pro
 
 Average case: O(log(logn))
 Worst case: O(n) [when values in structure increase exponentially]
+Made in C :)
+
+
+
+## Algorithm - Bubble Sort
+Checks adjacent elements to see if they're in order, if not they swap and then move on to the next element. It iterates over the entire array x number of times where x is the size of the array.
+Can be used for sort or reverse sort where the highest number comes first.
+Runs in O(n^2) - ok for small data set, AWFUL for big
+Made in C
+
+
+
+## Algorithm - Selection Sort
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
