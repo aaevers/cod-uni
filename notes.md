@@ -135,12 +135,23 @@ Made in C
 
 
 
+## Recursion
+Recursion is basically when a method calls itself from within itself, or a returned answer from a function you put into the same function.
+Divides problems into sub problems of the same type.
+Used in advanced sorting algs and searching trees.
+Advantages: easier to read, easier to debug
+Disadvantages: sometimes slower, uses more memory
+Every new call of the function adds it to the call stack which means that you have to resolve the last call of the function then second
+to last and so on until the first function call, the extra bloat in the call stack in why recursion can be slower and uses more memory.
 
 
 
-
-
-
+## Algorithm - Merge Sort
+Takes an array, breaks it into two sub arrays, then four, then eight and so on until you get an array of size 1. Then you merge them back
+up into a two element array then a four and so on until you get the same array you started with but sorted.
+Runs in O(nlogn) - Quasilinear Time, same as quicksort, heapsort
+That being said Bubble, Selection, and Insertion sorts all have arrays in place, that means that while they might not be as fast they don't
+use as much space creating copy arrays like Merge Sort does.
 
 
 
