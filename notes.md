@@ -152,7 +152,7 @@ up into a two element array then a four and so on until you get the same array y
 Runs in O(nlogn) - Quasilinear Time, same as quicksort, heapsort
 That being said Bubble, Selection, and Insertion sorts all have arrays in place, that means that while they might not be as fast they don't
 use as much space creating copy arrays like Merge Sort does.
-
+Made in C.
 
 
 
