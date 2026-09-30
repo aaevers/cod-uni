@@ -157,6 +157,7 @@ Made in C.
 
 
 ## Algorithm - Quick Sort
+Quick sort will pick a pivot (usually this ends up being the last element in an array) we iterate over the array once to find the final resting spot for our pivot, once it settles every number above it will be higher and every number below it will be smaller. That is done by i and j iterators. i starts at the beginning of the array and j is i - 1. i iterates until it finds a value less then the pivot element, only then does j iterate once, once it does the elements at i and j swap. Then it continues i iterates until it finds a lesser value, only then j iterates by one and then they swap until i makes it to the end of the array, where our pivot number lives, j increments one final time and then the elements at i and j swap. The array is now split, on that pivot, between numbers larger than the pivot and smaller than the pivot. It then does this recursively breaking off into smaller array sizes to iterate over until everything is sorted.
 
 
 
