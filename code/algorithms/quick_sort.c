@@ -2,11 +2,14 @@
 #include <stdlib.h>
 
 
-void swap(int x, int y){
+int partition(int arr[], int start, int end);
+
+
+void swap(int *x, int *y){
     
-    int temp = x;
-    x = y;
-    y = temp;
+    int temp = *x;
+    *x = *y;
+    *y = temp;
 
 }
 
@@ -32,11 +35,13 @@ int partition(int arr[], int start, int end){
     for(int i = start; i < end; i++){
         if(arr[i] < pivot){
             j++;
-            swap(arr[i], arr[j]);
+            swap(&arr[i], &arr[j]);
         }
     }
     j++;
-    swap(arr[end], arr[j]);
+    swap(&arr[end], &arr[j]);
+
+    return j; // Return this as the location of our pivot
 
 }
 
@@ -44,14 +49,14 @@ int partition(int arr[], int start, int end){
 int main(){
 
     int arr[] = {8, 2, 5, 3, 9, 4, 7, 6, 1};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    quickSort(arr, 0, size);
 
-
-
-
-
-
-
-
+    for(int i = 0; i < size; i++){
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     return 0;
+
 }
