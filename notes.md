@@ -82,7 +82,7 @@ Disadvantages: Wastes more memory, shifting elements is time consuming O(n), exp
 
 
 ## Data Struct - Hash Table:
-Sort of like dictionary in python. A hash table stores key value pairs, the key will use a hashing method to return an integer, this integer is then divided by the capacity of the table using modulus. So if you have a number end in 0 after a hash algorithm then you put it in index 0. Because some numbers may end with the same number it will result in a 'collision'. Hash tables are made of 'buckets' where the index at 0 is a bucket that will hold all the elements/values where their remainder is the same. For instance in the case that two elements go to the bucket at index 0 then we create a linked list and point our first element of that bucket to the next one.
+Sort of like dictionary in python. A hash table stores key value pairs, the key will use a hashing method to return an integer, this integer is then divided by the capacity of the table using modulus. So if you have a number end in 0 after a hash algorithm then you put it in index 0. Because some numbers may end with the same number it will result in a 'collision'. Hash tables are made of 'buckets' where the index at 0 is a bucket that will hold all the elements/values where their remainder is the same. For instance in the case that two elements go to the bucket at index 0 then we create a linked list and point our first element of that bucket to the next one. Oh btw they're called Entries - not elements but idk that people care.
 
 
 
