@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 
-#define TABLE_SIZE 100;
+const int TABLE_SIZE = 10;
 
 
 typedef struct Node{
     
     int key;
     char value[20];
+    bool isHead;
+    bool hasTail;
     struct Node *ptr;
 
 }Node;
@@ -24,16 +27,20 @@ int hash(int key){
 }
 
 
-void addEntry(){
+void addEntry(Node *arr[], Node *node, int index){
     
+    index %= TABLE_SIZE;
+
+    if(arr[index]->isHead == true){
+        
+    }
+
 }
-
-
 
 
 int main(){
 
-
+    Node arr[TABLE_SIZE];
 
 
 
